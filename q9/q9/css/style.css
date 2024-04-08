@@ -2,3 +2,120 @@
 
 /* カード内の画像は以下のURLを使用して下さい */
 /* https://picsum.photos/id/1005/200/300 */
+.square123{
+  height: 200px;
+  width: 200px;
+  background: #76ff826b;
+  margin: 0 auto;
+}
+.fadein{
+  animation: fadein 4s 0s 1;
+}
+@keyframes fadein{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.fadeout{
+  animation: fadeout 4s 4s 1;
+}
+@keyframes fadeout{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+.tornado{
+  animation: tornado 4s linear 0s infinite;
+}
+@keyframes tornado{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.square4-11{
+  height: 200px;
+  width: 200px;
+  background: #331aefd0;
+  margin: 0 auto;  
+  transition: .5s;
+}
+.colorchange:hover{
+  background: #ff27e2c9;
+  transition: .5s;
+}
+.changetornado:hover{
+  transform: rotate(360deg)
+}
+.upslide:hover{
+  transform: translate(0,-20%);
+}
+.rightslide:hover{
+  transform: translate(20%,0);
+}
+.longlong:hover{
+  height: 300px;
+}
+.sidelong:hover{
+  width: 500px;
+}
+.waku:hover{
+  border: 10px #00ffe5 solid;
+  box-sizing: border-box;
+}
+.kage:hover{
+  box-shadow:8px 11px 10px 3px #06031ed0;
+}
+.guruguru{
+  margin: 0 auto;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: solid 10px #ecf1f2;
+  border-top: solid 10px #14ff4bcd; 
+  animation: spin 1.1s linear 0s infinite;
+}
+@keyframes spin{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.cardlist{
+  display: flex;
+  justify-content: center;
+}
+.card{
+  width: 300px;
+  background: #ffffff;
+  padding: 20px;
+  border: solid 1px #000000;
+  transition: .5s;
+}
+.card:hover{
+  box-shadow: 0px 0px 10px 3px #424242d0;
+  z-index: 1;
+}
+.image{
+  height: 150px;
+  width: 150px;
+  background-image: url(https://picsum.photos/id/1005/200/300);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.card p{
+  padding-top: 20px;
+}

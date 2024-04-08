@@ -1,2 +1,23 @@
 @charset "UTF-8";
-
+.height{
+  height: 500px;
+}
+.q8-1-img{
+  background-image: url(../../image/coffee-background.jpg);
+}
+.q8-2-img{
+  background-image: url(../../image/coffee-background.jpg);
+  background-repeat: no-repeat;
+}
+.q8-3-img{
+  background-image: url(../../image/coffee-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.q8-4-img{
+  background-image: url(../../image/coffee-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

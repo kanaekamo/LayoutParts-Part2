@@ -1,1 +1,32 @@
 @charset "UTF-8";
+.hukidashi{
+  position: relative;
+  margin: 0 auto;
+  width: 500px;
+  line-height: 16px;
+  background: #fad296;
+  border: solid 5px #8f5a0a;
+  border-radius: 30px;
+  padding: 20px;
+}
+.hukidashi::after{
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 32px;
+  border-top: 18px solid #fad296;
+  border-right: 18px solid transparent;
+  border-left: 18px solid transparent;
+}
+.hukidashi::before{
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 25px;
+  border-top: 25px solid #8f5a0a;
+  border-right: 25px solid transparent;
+  border-left: 25px solid transparent;
+}
+p{
+  font-size: 16px;
+}

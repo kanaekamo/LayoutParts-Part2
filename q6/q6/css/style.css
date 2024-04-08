@@ -1,1 +1,33 @@
 @charset "UTF-8";
+header{
+  width: 100%;
+  background: #388bff;
+  position: fixed;
+}
+a{
+  text-decoration: none;
+}
+.moji{
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.shop{
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+.shop a{
+  color: #f2ff7b;
+}
+ul{
+  display: flex;
+}
+li{  
+  padding: 30px;
+}
+li a{
+  color: #ffffff;
+}
+
